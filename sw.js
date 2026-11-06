@@ -1,6 +1,6 @@
 // Service worker of the installed app: the game works offline after the first visit.
 // The app files come from the cache; Three.js and the fonts are cached the first time they load.
-const VERSION = '101.0.0-d7b48218';
+const VERSION = '104.0.0-b9fa0d9c';
 const CACHE = `full-pull-${VERSION}`;
 // the build fills in the Three.js script and the font stylesheet that the page loads from other hosts
 const PRECACHE = ["https://fonts.googleapis.com/css2?family=Teko:wght@500;600;700&family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap","https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"];
